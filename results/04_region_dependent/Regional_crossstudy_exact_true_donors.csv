@@ -1,0 +1,4 @@
+"gene_set","genes_tested_in_both","pct_differ_from_motor_cortex","other_genes_pct","odds_ratio","motor_cortex_closer_to_cingulate_pct"
+"All interaction genes (thesis 584; 64.9%)",584,64.9,5.6,31.4,92.5
+"High-confidence, true donors (thesis 525; 67.0%)",510,67.3,5.7,34,92.9
+"High-confidence + without batch 4, true donors (thesis 136; 77.2%)",135,77.8,6.6,49.3,93.3

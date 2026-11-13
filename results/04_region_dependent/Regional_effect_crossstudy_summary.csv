@@ -1,0 +1,11 @@
+"measure","value","percent"
+"Interaction genes also tested in motor cortex",584,NA
+"  of these: striatal HD effect also differs from motor cortex (padj < 0.05)",379,64.9
+"  of these: same direction of the difference",379,64.9
+"  of all interaction genes: same direction of the difference (any significance)",584,100
+"  of all interaction genes: motor-cortex effect closer to cingulate than to striatal effect",540,92.5
+"All other tested genes: striatal effect differs from motor cortex (padj < 0.05)",1269,5.6
+"Odds ratio (interaction genes vs other genes, differing vs motor cortex)",31.39,NA
+"Fisher test p-value",7.57e-299,NA
+"Spearman rho, interaction estimate vs striatum-minus-motor-cortex, all genes",0.682,NA
+"Spearman rho, same, interaction genes only",0.939,NA

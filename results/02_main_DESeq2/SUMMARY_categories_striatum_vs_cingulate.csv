@@ -1,0 +1,9 @@
+"category","interaction_padj_lt_0.05","interaction_ns","total"
+"shared_up",0,438,438
+"shared_down",0,104,104
+"opposite_direction",5,0,5
+"striatum_only_up",103,2235,2338
+"striatum_only_down",420,2962,3382
+"cingulate_only_up",10,264,274
+"cingulate_only_down",15,164,179
+"not_significant",36,18348,18384

@@ -1,0 +1,12 @@
+"measure","value"
+"Genes tested in both models",23730
+"Median gene-wise dispersion, Paryani",0.149
+"Median gene-wise dispersion, GSE79666",0.0376
+"Median final dispersion, Paryani",0.156
+"Median final dispersion, GSE79666",0.0448
+"Asymptotic dispersion of the fitted trend, Paryani",0.151
+"Asymptotic dispersion of the fitted trend, GSE79666",0.0504
+"Biological CV at high counts (sqrt of asymptotic dispersion), Paryani",0.389
+"Biological CV at high counts (sqrt of asymptotic dispersion), GSE79666",0.224
+"Median per-gene ratio of gene-wise dispersions, GSE79666 / Paryani",0.279
+"Genes with higher gene-wise dispersion in GSE79666 (%)",5.7

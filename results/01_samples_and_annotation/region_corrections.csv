@@ -1,0 +1,11 @@
+"sample_label","tissue_new","action","reason","sample_id","condition","region_GEO","tissue_GEO","striatal_score","cortical_score"
+"OF021","Cortex","relabelled","cortical-neuron marker score within the cortex reference range","GSM7754729","HD","Caudate","Striatum",7.95,11.4
+"OF024","Cortex","relabelled","cortical-neuron marker score within the cortex reference range","GSM7754732","HD","Caudate","Striatum",7.18,9.12
+"OF038","Cortex","relabelled","cortical-neuron marker score within the cortex reference range","GSM7754746","HD","Caudate","Striatum",8,11.31
+"OF049","Cortex","relabelled","cortical-neuron marker score within the cortex reference range","GSM7754757","HD","Caudate","Striatum",7.47,9.82
+"H5608_Accum","Cortex","relabelled","cortical-neuron marker score within the cortex reference range","GSM7754707","HD","Accumbens","Striatum",7.57,9.4
+"OF025","Striatum","relabelled","cortical-neuron marker score within the striatum reference range","GSM7754733","HD","Cingulate","Cortex",7.52,5.15
+"OF050","Striatum","relabelled","cortical-neuron marker score within the striatum reference range","GSM7754758","HD","Cingulate","Cortex",7.81,5.73
+"H5263_Cing","Cortex","kept_flagged","intermediate cortical score with low striatal score: consistent with cortex","GSM7754700","HD","Cingulate","Cortex",6.98,8.55
+"OF045","Striatum","excluded","high striatal and cortical scores: mixed tissue, identity cannot be assigned","GSM7754753","HD","Accumbens","Striatum",9.22,9.13
+"OF033","Striatum","kept_flagged","intermediate cortical score with high striatal score: possible cortical admixture","GSM7754741","HD","Accumbens","Striatum",9.16,7.84

@@ -1,0 +1,23 @@
+"gene_list","term","padj","count"
+"Striatum, higher in HD","RNA splicing",5.64159438525741e-08,112
+"Striatum, higher in HD","epigenetic regulation of gene expression",6.8603471463232e-08,74
+"Striatum, higher in HD","regulation of mRNA metabolic process",4.13866563584288e-07,80
+"Striatum, higher in HD","mRNA destabilization",1.89204089399446e-05,36
+"Striatum, higher in HD","cell fate specification",2.61774195989034e-05,31
+"Striatum, lower in HD","oxidative phosphorylation",1.16880273499013e-27,80
+"Striatum, lower in HD","cytoplasmic translation",1.16880273499013e-27,102
+"Striatum, lower in HD","proton motive force-driven ATP synthesis",2.24387685293727e-23,52
+"Striatum, lower in HD","purine nucleoside triphosphate biosynthetic process",2.08378427240272e-21,63
+"Striatum, lower in HD","ribose phosphate biosynthetic process",2.40553500829873e-18,78
+"Cingulate, higher in HD","cell differentiation involved in kidney development",0.0048121249999093,11
+"Cingulate, higher in HD","cellular response to zinc ion",0.0048121249999093,7
+"Cingulate, higher in HD","positive regulation of multicellular organism growth",0.00506304032683833,8
+"Cingulate, higher in HD","cellular response to platelet-derived growth factor stimulus",0.00657624241673813,7
+"Cingulate, higher in HD","gliogenesis",0.00657624241673813,28
+"Motor cortex BA4, higher in HD","cell fate specification",2.46903314971851e-06,13
+"Motor cortex BA4, higher in HD","pattern specification process",2.46903314971851e-06,26
+"Motor cortex BA4, higher in HD","cellular response to cadmium ion",1.6170178249369e-05,7
+"Motor cortex BA4, higher in HD","stress response to metal ion",6.21679588254174e-05,6
+"Motor cortex BA4, higher in HD","response to cadmium ion",9.32862301666722e-05,8
+"Motor cortex BA4, lower in HD","cholesterol biosynthetic process",0.0389525456849072,7
+"Motor cortex BA4, lower in HD","secondary alcohol biosynthetic process",0.0389525456849072,7

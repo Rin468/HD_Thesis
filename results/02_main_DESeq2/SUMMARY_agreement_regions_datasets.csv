@@ -1,0 +1,13 @@
+"measure","value"
+"Genes tested in both studies",23730
+"Spearman rho, cingulate vs BA4 HD effect (shrunken log2FC, all reliable genes)",0.497
+"Spearman rho, cingulate vs BA4 HD effect (genes significant in cingulate)",0.574
+"Genes significant in cingulate (B_P) and tested in BA4",961
+"  of these: same direction in BA4 (%)",89.1
+"  of these: significant in BA4 with the same direction",72
+"Genes significant in BA4 (B_T)",714
+"Genes with a significant BA4 vs cingulate difference",7
+"Spearman rho, striatum (A) vs cingulate (B_P) HD effect",0.592
+"Spearman rho, striatum (A) vs BA4 (B_T) HD effect",0.436
+"Genes with a significant striatum vs BA4 difference",1635
+"Genes significant in all three regions with the same direction",40

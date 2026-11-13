@@ -1,0 +1,9 @@
+"category","genes","with_significant_region_difference"
+"Significant in both, higher in HD",815,18
+"Significant in both, lower in HD",550,71
+"Significant in both, opposite directions",34,34
+"Striatum only, higher in HD",1779,438
+"Striatum only, lower in HD",2728,1169
+"Pooled cortex only, higher in HD",1061,26
+"Pooled cortex only, lower in HD",914,41
+"Not significant in either",14490,70

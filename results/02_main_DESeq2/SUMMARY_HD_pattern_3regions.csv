@@ -1,0 +1,9 @@
+"pattern","up","down","mixed","none","total"
+"striatum+cingulate+BA4",36,4,1,0,41
+"striatum+cingulate",381,100,4,0,485
+"striatum+BA4",106,98,14,0,218
+"cingulate+BA4",13,18,0,0,31
+"striatum",2134,3216,0,0,5350
+"cingulate",245,159,0,0,404
+"BA4",196,189,0,0,385
+"none",0,0,0,16816,16816

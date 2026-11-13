@@ -1,0 +1,5 @@
+"tissue","condition","samples","donors","donors_with_2plus_samples","regions"
+"Striatum","CTRL",10,6,4,"Accumbens: 4, Caudate: 6"
+"Cortex","CTRL",10,10,0,"Cingulate: 10"
+"Striatum","HD",27,17,10,"Accumbens: 10, Caudate: 15, Striatum_unspecified: 2"
+"Cortex","HD",28,26,2,"Cingulate: 23, Cortex_unspecified: 5"

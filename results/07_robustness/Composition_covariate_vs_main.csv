@@ -1,0 +1,5 @@
+"comparison","DEGs_main","DEGs_with_neuronal_score","main_DEGs_retained_pct","spearman_rho_log2FC"
+"Striatum, HD vs control",6267,1129,16.3,0.766
+"Cingulate cortex, HD vs control",1000,124,11.5,0.86
+"Region-dependent HD effect (interaction)",589,961,91,0.921
+"Motor cortex, HD vs control",714,331,14,0.657

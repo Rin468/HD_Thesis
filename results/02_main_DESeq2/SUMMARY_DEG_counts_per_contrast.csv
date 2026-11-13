@@ -1,0 +1,7 @@
+"contrast","model","description","genes_in_model","genes_tested","flagged_not_estimable","significant","up","down","significant_and_abs_shrunk_log2FC_gt1","median_lfcSE_reliable"
+"A","P","Striatum (Paryani): HD vs CTRL",25104,25097,21,6267,2779,3488,767,0.276
+"B_P","P","Cingulate cortex (Paryani): HD vs CTRL",25104,25097,26,1000,714,286,38,0.264
+"B_T","L","Motor cortex BA4 (GSE79666): HD vs CTRL",26615,25544,0,714,364,350,28,0.199
+"C","P","Controls (Paryani): striatum vs cingulate",25104,25097,37,5811,3007,2804,2285,0.317
+"D","P","HD (Paryani): striatum vs cingulate",25104,25097,5,12115,6400,5715,3329,0.181
+"E_P","P","Interaction (Paryani): striatum minus cingulate HD effect",25104,23150,39,589,142,447,91,0.348

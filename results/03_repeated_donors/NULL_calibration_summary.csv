@@ -1,0 +1,7 @@
+"split_type","method","n_splits","median_genes_padj_lt_0.05","max_genes_padj_lt_0.05","pct_splits_with_any_DEG","mean_fraction_p_lt_0.05","median_lambda","min_lambda","max_lambda","median_donor_correlation"
+"donor_level","DESeq2",20,30.5,1849,100,0.1158,1.449,0.761,3.304,NA
+"sample_level","DESeq2",20,0,13,35,0.0544,0.997,0.62,1.721,NA
+"donor_level","voom_donor",20,0,16,5,0.0538,1.017,0.503,2.397,0.449
+"sample_level","voom_donor",20,0,1,10,0.0434,0.995,0.671,1.455,0.448
+"donor_level","voom_noblock",20,0,675,45,0.0987,1.501,0.692,3.208,NA
+"sample_level","voom_noblock",20,0,0,0,0.0415,0.969,0.636,1.805,NA

@@ -1,0 +1,9 @@
+"gene_list","DEGs","DEGs_mapped_in_OrgDb","universe","universe_mapped_in_OrgDb","terms_FDR_0.05","terms_after_simplify"
+"Striatum, higher in HD",2779,2280,25076,19450,204,85
+"Striatum, lower in HD",3488,2957,25076,19450,155,53
+"Cingulate, higher in HD",714,594,25071,19449,70,41
+"Cingulate, lower in HD",286,245,25071,19449,0,0
+"Motor cortex BA4, higher in HD",364,286,25544,19577,140,61
+"Motor cortex BA4, lower in HD",350,291,25544,19577,3,2
+"Cingulate (adjusted p < 0.01), higher in HD",171,151,25071,19449,0,0
+"Cingulate (adjusted p < 0.01), lower in HD",35,29,25071,19449,0,0

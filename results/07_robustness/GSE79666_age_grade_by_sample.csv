@@ -1,0 +1,15 @@
+"sample","condition","sex_inferred","age_years","Vonsattel_grade"
+"CTRL-11","CTRL","male",57,NA
+"CTRL-12","CTRL","male",64,NA
+"CTRL-13","CTRL","male",59,NA
+"CTRL-3","CTRL","female",46,NA
+"CTRL-4","CTRL","male",42,NA
+"CTRL-8","CTRL","male",50,NA
+"CTRL-9","CTRL","male",48,NA
+"HD-283","HD","female",51,4
+"HD-288","HD","female",57,3
+"HD-290","HD","male",52,3
+"HD-57","HD","male",65,2
+"HD-58","HD","male",44,3
+"HD-61","HD","male",69,3
+"HD-68","HD","female",56,2

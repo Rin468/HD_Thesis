@@ -1,0 +1,12 @@
+"analysis","region","core_genes_tested","same_direction","changed_direction","still_significant"
+"Without the HD-only batch (S1)","striatum",39,39,"",36
+"Without the HD-only batch (S1)","cingulate cortex",39,39,"",28
+"Without relabelled or marker-flagged samples (S2)","striatum",40,40,"",38
+"Without relabelled or marker-flagged samples (S2)","cingulate cortex",40,40,"",35
+"Without the possible outlier control (S3)","striatum",40,40,"",38
+"Without the possible outlier control (S3)","cingulate cortex",40,40,"",38
+"Without juvenile-onset samples, old donors (S6)","striatum",39,39,"",36
+"Without juvenile-onset samples, old donors (S6)","cingulate cortex",39,39,"",38
+"Motor cortex without the only female control (S7)","motor cortex",40,40,"",10
+"Without the four sex-corrected samples (S9)","striatum",40,40,"",39
+"Without the four sex-corrected samples (S9)","cingulate cortex",40,40,"",17

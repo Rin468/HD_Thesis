@@ -1,0 +1,3 @@
+"weights","pooled_cortex_DEGs","pooled_cortex_higher","pooled_cortex_lower","striatum_vs_pooled_cortex_genes","more_negative_in_striatum","more_positive_in_striatum","of_these_also_interaction_gene","interaction_genes_recovered_pct","spearman_rho_with_interaction"
+"inverse-variance (main)",3374,1889,1485,1867,1316,551,532,91.1,0.85
+"equal weights (sensitivity)",2999,1679,1320,1477,1058,419,543,93,0.896

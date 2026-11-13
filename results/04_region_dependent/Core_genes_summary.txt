@@ -1,0 +1,15 @@
+Genes tested in both studies: 23405
+Significant in all three regions: 41
+Same direction (core genes): 40 | higher: 36 | lower: 4
+Direction agrees between MLE and shrunken LFC for all genes: TRUE
+Core 'higher' identical to all_three_regions_up.txt: TRUE
+Core 'lower' identical to all_three_regions_down.txt: TRUE
+Opposite-direction gene(s) (shrunken LFC striatum / cingulate / motor cortex):
+  AHNAK2 0.57 / -0.47 / -0.29
+Core genes in striatal high-confidence list: 39
+Core genes in cingulate high-confidence list: 27
+Core genes in both high-confidence lists: 27
+Check genes (shrunken LFC striatum / cingulate / motor cortex; base mean):
+  PITX1 3.76 / 6.04 / 5.83 ; 16.8
+  HOXA10 4.86 / 0.41 / 3.49 ; 4.9
+  SHOX2 2.96 / 0.57 / 0.37 ; 8.8

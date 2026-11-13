@@ -1,0 +1,3 @@
+model,dataset,samples,groups,design,genes_tested
+P,Paryani et al. 2024 (GSE242195),75,Striatum_CTRL: 10; Striatum_HD: 27; Cortex_CTRL: 10; Cortex_HD: 28,~batch_study + sex + group,25104
+L,Lin et al. 2016 (GSE79666),14,CTRL: 7; HD: 7,~sex + condition,26615

@@ -1,0 +1,9 @@
+"category","difference_padj_lt_0.05","difference_ns","total"
+"shared_up",0,142,142
+"shared_down",8,94,102
+"opposite_direction",15,0,15
+"striatum_only_up",457,2060,2517
+"striatum_only_down",1039,2279,3318
+"BA4_only_up",11,198,209
+"BA4_only_down",15,192,207
+"not_significant",90,17130,17220

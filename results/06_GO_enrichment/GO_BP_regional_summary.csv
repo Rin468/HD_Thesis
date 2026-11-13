@@ -1,0 +1,5 @@
+"gene_list","genes","genes_mapped","background_mapped","enriched_terms","non_redundant"
+"All region-dependent genes, HD effect more negative in striatum",1316,1153,18248,111,44
+"All region-dependent genes, HD effect more positive in striatum",551,502,18248,1,1
+"Robust genes, HD effect more negative in striatum",704,596,18248,115,50
+"Robust genes, HD effect more positive in striatum",262,248,18248,0,0

@@ -1,0 +1,14 @@
+"sample","true_donor","batch","GEO_tissue","final_tissue","region_check","in_model","striatal_score","cortical_score","sex_GEO","sex_expression","sex_score"
+"H5263_Cing","T5263","Paryani_b3","Cortex","Cortex","kept_flagged",TRUE,6.98,8.55,"female","female",-8.11
+"H5608_Accum","T5608","Paryani_b2","Striatum","Cortex","relabelled",TRUE,7.57,9.4,"male","female",-8.06
+"H5608_Caud","T5608","Paryani_b3","Striatum","Striatum","consistent",TRUE,7.61,5.81,"male","female",-9.14
+"H5608_Cing","T5608","Paryani_b2","Cortex","Cortex","consistent",TRUE,7.1,9.27,"male","female",-8.09
+"C98_Cing","T98","Paryani_b1","Cortex","Cortex","consistent",TRUE,8.09,11.98,"female","male",4.47
+"OF021","T3859","Paryani_b4","Striatum","Cortex","relabelled",TRUE,7.95,11.4,"male","male",4.17
+"OF024","T4273","Paryani_b4","Striatum","Cortex","relabelled",TRUE,7.18,9.12,"male","male",3.67
+"OF025","T4273","Paryani_b4","Cortex","Striatum","relabelled",TRUE,7.52,5.15,"male","male",3.06
+"OF033","T4638","Paryani_b4","Striatum","Striatum","kept_flagged",TRUE,9.16,7.84,"female","female",-9.4
+"OF038","T5286","Paryani_b4","Striatum","Cortex","relabelled",TRUE,8,11.31,"female","female",-7.57
+"OF045","T5693","Paryani_b4","Striatum","Striatum","excluded",FALSE,9.22,9.13,"female","female",-8.42
+"OF049","T5775","Paryani_b4","Striatum","Cortex","relabelled",TRUE,7.47,9.82,"male","male",4.91
+"OF050","T5775","Paryani_b4","Cortex","Striatum","relabelled",TRUE,7.81,5.73,"male","male",5.02

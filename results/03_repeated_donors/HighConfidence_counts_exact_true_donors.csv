@@ -1,0 +1,6 @@
+"contrast","DESeq2_DEGs","HC_saved_run_approx","HC_exact_old_donors","HC_exact_true_donors","HC_true_higher","HC_true_lower","pct_of_DEGs_true","rho_DESeq2_vs_voom_true","in_both_old_and_true"
+"Striatum, HD vs control",6267,4524,4524,4592,1758,2834,73.3,0.95,4477
+"Cingulate cortex, HD vs control",1000,430,517,627,398,229,62.7,0.96,517
+"Controls, striatum vs cingulate",5811,5438,5438,5460,2769,2691,94,0.97,5425
+"HD, striatum vs cingulate",12115,11743,11526,11508,5969,5539,95,0.97,11494
+"Region-dependent HD effect (interaction)",589,528,519,512,123,389,86.9,0.93,511

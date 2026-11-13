@@ -1,0 +1,16 @@
+"analysis","contrast","main_DEGs","alt_DEGs","main_DEGs_tested_in_alt","retained_sig_same_dir","retained_pct","same_dir_pct_of_tested","alt_only_DEGs","rho_log2FC"
+"S9a_without_H5608_Accum","A",6267,6088,6261,6068,96.8,100,20,0.999
+"S9a_without_H5608_Accum","B_P",1000,824,986,816,81.6,100,8,0.997
+"S9a_without_H5608_Accum","C",5811,5713,5804,5671,97.6,100,42,1
+"S9a_without_H5608_Accum","D",12115,11939,12103,11737,96.9,100,202,0.998
+"S9a_without_H5608_Accum","E_P",589,594,574,571,96.9,100,23,0.999
+"S9b_without_C98_Cing","A",6267,6249,6267,6204,99,100,45,1
+"S9b_without_C98_Cing","B_P",1000,583,1000,577,57.7,100,6,0.99
+"S9b_without_C98_Cing","C",5811,5393,5810,5325,91.6,100,68,0.997
+"S9b_without_C98_Cing","D",12115,12151,12114,12046,99.4,100,105,1
+"S9b_without_C98_Cing","E_P",589,577,589,536,91,100,41,0.993
+"S9c_without_H5608_both_cortex","A",6267,5896,6254,5868,93.6,100,28,0.998
+"S9c_without_H5608_both_cortex","B_P",1000,614,956,606,60.6,100,8,0.989
+"S9c_without_H5608_both_cortex","C",5811,5756,5802,5618,96.7,100,138,0.999
+"S9c_without_H5608_both_cortex","D",12115,11871,12096,11429,94.3,100,442,0.993
+"S9c_without_H5608_both_cortex","E_P",589,642,582,572,97.1,100,70,0.996
