@@ -1,48 +1,47 @@
-# Huntington's disease bulk RNA-seq: comparison of two studies
+# Comparative analysis of transcriptomic profiles in Huntington's disease and healthy brain tissues based on bulk RNA-seq data
 
-R analysis scripts
+Analysis code, metadata and result tables for my student research paper and BSc thesis.
+Gene expression of Huntington's disease (HD) and control post-mortem brain samples is compared
+between the striatum and the cortex, using two public datasets processed with one workflow.
 
-The work compares gene expression between Huntington's disease (HD) and control (CTRL)
-post-mortem brain samples, using two public datasets analysed separately and then compared.
+## Data
 
-Raw data are not stored here. Download them from GEO: https://www.ncbi.nlm.nih.gov/geo/
+| Dataset | Study | Brain regions | Samples analysed |
+|---|---|---|---|
+| GSE242195 | Paryani et al., 2024 | caudate nucleus, nucleus accumbens, cingulate cortex | 76 bulk RNA-seq samples |
+| GSE79666 | Lin et al., 2016 | motor cortex (BA4) | 14 (7 HD, 7 control) |
 
-# Paryani et al. (2024), GSE242195: from raw reads to gene counts
+Raw reads are not stored here; they are public in GEO/SRA (run lists in `metadata/`).
+In file and object names the Lin et al. (2016) dataset is also called "Tseng".
 
-Steps 1–6 are SLURM scripts run on the lab's computing cluster; step 7 is an R script.
+## Methods (short)
 
-| Order | Script | What it does |
-|---|---|---|
-| 1 | `01_download_fastq2.sh` | Downloads each run in `SRR_Acc_List.txt` from SRA (prefetch and fasterq-dump, SRA Toolkit 3.4.1) and compresses the FASTQ files |
-| 2 | `02_classify_safe.sh` | Checks that each downloaded file contains real base-quality values and lists the complete runs |
-| 3 | `03_build_qc_set.sh` | Collects the complete runs for quality control; if a run was downloaded from both NCBI and ENA, keeps the NCBI files |
-| 4 | `04_run_qc.sh` | Read quality check with FastQC, summarised with MultiQC |
-| 5 | `05_trim_fastp.sh` | Trimming with fastp: automatic adapter detection for paired-end reads, quality threshold Q20, minimum read length 25 |
-| 6 | `06_run_salmon.sh` | Quantification with Salmon against the GENCODE release 44 index: automatic library type, no bias correction |
-| 7 | `07_tximport_counts.R` | Imports the Salmon results of the 76 bulk tissue samples and sums transcripts to genes with tximport, using `reference/tx2gene_v44.csv` |
+Trimming with fastp, quantification with Salmon 2.4.1 against GENCODE release 44, gene-level
+import with tximport, differential expression with DESeq2 (one model per study), donor-aware
+limma-voom as a check for repeated donors, inverse-variance pooling of the two cortical regions,
+GO enrichment with clusterProfiler.
 
-## Samples
+## Folder structure
 
-`SRR_Acc_List.txt` lists all 325 sequencing runs of GSE242195, and all of them were processed by steps 1–6:
-- 76 bulk tissue runs (35 cingulate cortex, 25 caudate nucleus, 16 nucleus accumbens), analysed in the thesis
-- 189 runs labelled "TRANSCRIPTOMIC SINGLE CELL" in SRA, not used
-- 60 runs from the HMC3 microglia cell line, not used
+- `scripts/Paryani_2024/` – download, QC, trimming and Salmon on the server (steps 01–06) and gene counts in R (07)
+- `scripts/Lin_2016/` – the same for Lin et al. (2016) (steps 01–05)
+- `scripts/Merged_analysis/` – the main analysis in R; `additional/` holds earlier versions and checks
+- `reference/` – GENCODE 44 transcript-to-gene table and Salmon index settings
+- `metadata/` – SRA run lists and sample tables for both datasets
+- `results/` – result tables of the final runs and package versions (`results/session_info/`)
 
-Step 7 selects the 76 bulk samples (listed in `metadata/Paryani_2024/srr_list_76.txt`) using
-`metadata/Paryani_2024/SraRunTable.csv` and `gsm_title_srx_group_map.csv`. Disease status is taken
-from the `grade` column of `SraRunTable.csv`; the `group` column of `gsm_title_srx_group_map.csv` is
-incorrect (all samples labelled CTRL) and is not used.
+Each folder has its own README with details.
 
+## How to run
 
-## Source files (not stored here)
-Download from GENCODE release 44: https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_44/
-- `gencode.v44.transcripts.fa.gz`
-- `gencode.v44.annotation.gtf.gz`
-- 
-## Notes
+1. Server scripts in `scripts/Paryani_2024` and `scripts/Lin_2016`, in numerical order
+2. The tximport scripts (`scripts/Paryani_2024/07_tximport_counts.R`, `scripts/Lin_2016/05_tximport_counts.R`)
+3. `scripts/Merged_analysis`, in numerical order
 
-- 28 runs that did not finish in the first Salmon job were rerun with identical settings.
-- The files of one run (SRR25877074) were compressed manually after download.
-- Paths are those of the original server and must be changed to rerun the scripts elsewhere.
-  The July scripts use `~/Paryani_2024`, the later ones `~/arcticles/Paryani_2024`
-  (the project folder was moved).
+Paths are those of the original server and computers and must be changed to rerun the scripts.
+
+## Requirements
+
+- Server: SRA Toolkit 3.4.1, FastQC, MultiQC, fastp, Salmon 2.4.1, SLURM
+- R 4.5.3, Bioconductor 3.22; package versions in `results/session_info/`
+
